@@ -1,12 +1,12 @@
+#[2,7,11,19]
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        dict={}
         for i in range(len(nums)):
            s=nums[i]
-           for j in range(len(nums)):
-             if j==i:
-                break
-             else:
-                p=nums[j]
-             if s+p==target:
-                return[i,j]   
+           a=target-s
+           if a in dict:
+            return[i,dict[a]]
+           else:
+            dict[s]=i
 
