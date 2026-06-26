@@ -9,4 +9,16 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0001-two-sum) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0002-add-two-numbers) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
