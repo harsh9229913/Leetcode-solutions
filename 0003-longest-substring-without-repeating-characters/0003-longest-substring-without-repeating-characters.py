@@ -7,14 +7,14 @@ class Solution:
         else:
             i=0
             while i < len(s):
-                if s[i] in dct.values():
-                    i=next(key for key, value in dct.items() if value == s[i]) +1
+                if s[i] in dct:
+                    i=dct[s[i]]+1
                     dct.clear()
-                    dupl.append(dup)
+                    dct[s[i]]=i
                     dup=1
-                    dct[i]=s[i]
-                elif s[i] not in dct.values():
-                    dct[i]=s[i]
+                    dupl.append(dup)
+                elif s[i] not in dct:
+                    dct[s[i]]=i
                     dup=dup+1
                     dupl.append(dup)
                 i=i+1 
