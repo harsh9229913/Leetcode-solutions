@@ -2,20 +2,13 @@ class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         dup=0
         dct={}
-        dupl=[]
+        left=0
         if s=="":return 0
         else:
             i=0
-            while i < len(s):
-                if s[i] in dct:
-                    i=dct[s[i]]+1
-                    dct.clear()
-                    dct[s[i]]=i
-                    dup=1
-                    dupl.append(dup)
-                elif s[i] not in dct:
-                    dct[s[i]]=i
-                    dup=dup+1
-                    dupl.append(dup)
-                i=i+1 
-            return max(dupl)            
+            for right in range(len(s)):
+                if s[right] in dct and left<=right:
+                   left = max(left, dct[s[right]] + 1)
+                dct[s[right]]=right
+                dup=max(dup,(right-left)+1)
+        return dup   
