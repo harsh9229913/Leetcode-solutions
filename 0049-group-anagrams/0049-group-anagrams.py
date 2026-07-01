@@ -7,7 +7,5 @@ class Solution:
             if tup in dct:
                 dct[tup].append(r)
             else:
-                dct[tup]=[r] 
-        for d in dct:
-            lst.append(dct[d])             
-        return lst   
+                dct[tup]=[r]              
+        return list(dct.values())   
