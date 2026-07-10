@@ -6,6 +6,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0036-valid-sudoku](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
@@ -14,6 +15,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0242-valid-anagram) |
@@ -77,4 +79,8 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0125-valid-palindrome) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/harsh9229913/Leetcode-solutions/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
