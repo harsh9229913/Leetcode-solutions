@@ -6,11 +6,9 @@ class Solution:
         vis=set()
         lst=[]
         if not nums:return 0
-        for i in nums:
+        for i in s:
             a=0
             c=1
-            
-            if i in vis:continue
             if i-1 not in s:
                 start=i   
                 d=start+1 
@@ -23,7 +21,6 @@ class Solution:
                 else:
                     lst.append(c)
                     a=1
-            vis.add(i)
         return max(lst)            
 
 
