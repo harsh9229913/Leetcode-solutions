@@ -1,9 +1,10 @@
+import heapq
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         dct={}
         lst=[]
         count=1
-        f=0
+        numheap=[]
         for i in nums:
             if not dct:
                 dct[i]=count
@@ -12,8 +13,8 @@ class Solution:
             else:
                 dct[i]=count    
      
-        for i in range(k):
-            a=max(dct,key=dct.get)
-            lst.append(a)
-            del dct[a]
-        return lst  
+        for x,y in dct.items():
+            heapq.heappush(numheap,(y,x))
+            if len(numheap) > k:
+                heapq.heappop(numheap)
+        return [x for y, x in numheap]
